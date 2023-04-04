@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework1</title>
+        <style>
+            #box_up{
+                background-color: rgb(174, 198, 207);
+                width:80%; height:70px;
+                position:relative;
+                margin:0 auto;
+            }
+            #box_down{
+                background-color: rgb(174, 198, 207);
+                width:80%; height:170px;
+                position:relative;
+                margin:0 auto;
+            }
+            #logo{
+                position: absolute;
+                top:12px;
+                left:20px;
+            }
+             
+            h3.hi_tit{
+                color:rgb(255,255,250);
+                font-weight: normal;
+                display:inline;
+                position: absolute;
+                left:130px;
+            }
+
+            h3.tit{
+                font-weight: normal;
+            }
+            
+            ul{
+                list-style-type: none;
+                display:inline;
+                position:absolute;
+                top:8px;
+                left:70%;
+            }
+            ul li{
+                display: inline;
+            }
+            li{
+                background-color: rgb(221, 221, 221);
+                color:black;
+                padding: 6px 18px;
+                text-decoration: none;
+                text-align: center;
+            }
+            li:hover{
+                background-color: rgb(127, 127, 127);
+            }
+            #sub_bar{
+                left:245px;
+                top: -6px;
+                display:none;
+            }
+            #sub_bar li{
+                float:left;
+                width:50px;
+            }
+
+            #content1{
+                text-align: center;
+            }
+            .content2{
+                text-align: center;
+                position: relative;
+                width:620px;
+                left:140px;
+            }
+            #hr_first{
+                width:80%;
+            }
+            .hr-dotted{
+                border-style: dotted;
+                width:620px;
+            }
+            table, tr{
+                border-collapse:collapse;
+                border: 1px solid rgb(127, 127, 127);
+                width:552px;
+                margin:0 auto;
+            }
+            tr, td{
+                text-align: center;
+                width:184px;
+            }
+
+            tr:hover{
+                background-color: rgb(94, 94, 94);
+            }
+            
+            .h{
+                border-collapse:collapse;
+                border: 1px solid rgb(127, 127, 127);
+            }
+            .zebra_d{
+                background-color: rgb(220, 220, 220);
+            }
+            .zebra_l{
+                background-color: rgb(244, 244, 244);
+            }
+            #submit_bt{
+                border: 2px solid rgb(127, 127, 127);
+                background-color: rgb(174, 222, 237);
+                position:relative;
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+            textarea{
+                border: 2px solid rgb(127, 127, 127);
+                resize: none; 
+            }
+           #fixed{
+                width:250px;
+                height:100px;
+                background-color: rgb(174, 198, 207);
+                text-align: center;
+                position:fixed;
+                top:280px;
+                left:900px;
+           }
+           #fin{
+                text-align: right;
+                padding-top: 10px;
+                padding-right: 20px;
+           }
+           .a{
+                text-decoration: none;
+                color:black;
+           }
+           #gift_c:hover > #sub_bar{
+                display:block;
+           }
+            
+        </style>
+        
+    </head>
+    <body>
+        <div id="box_up">
+            <img src="logo.png" id="logo" width="100px" height="45px"  alt="BARNES&NOBLE logo">
+            <h3 class="hi_tit">Premium bookshop</h3>
+            <ul>
+                <li><a href="#" class="a">Home</a></li>
+                <li><a href="#" class="a">Books</a></li>
+                <li id="gift_c"><a href="#" class="a">Gifts</a>
+                    <ul id="sub_bar">
+                        <li><a href="#" class="a">Kids</a></li>
+                        <li><a href="#" class="a">Adults</a></li>
+                        <li><a href="#" class="a">For All</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="content1">
+            <div>
+                <p>The Best Bookstore Online<br>
+                Over 6 million books ready for shipment within 24 hours and 4.5 million 3Books to download now.</p>
+            </div>
+            <hr id="hr_first">
+        </div>
+
+        <div class="content2">
+            <h3 class="tit">The President is Missing</h3>
+            <p>Please join us in welcoming President Bill Clinton and the world's bestselling author
+            James Patterson to celebrate the release of their new novel, The President is
+            Missing. A limited number of wristbands for event access will be distributed beginning at 9am the day of the even</p>
+            <img src="clinton.jpg" width="200px" height="300px">
+            <hr class ="hr-dotted">
+        </div>
+
+        <div id="fixed">
+            <p>10% OFF $35+ | 15% OFF $60+
+                *USE CODE: HAPPYAPRIL
+            </p>
+        </div>
+
+        <div class="content2">
+            <h3 class="tit">True Roots: A Mindful Kitchen with More Than 100
+                Recipes Free of Gluten, Dairy, and Refined Sugar
+            </h3>
+            <p>In her first book, Kristin Cavallari shared her personal journey along with her tips on
+                everything from style to relationships. And now, with True Toots, Cavallari shows
+                you that improving the way you eat doesn't have to be difficult-a clean and toxin-
+                free diet can and should be fun, easy, and enjoyable. She learned the hard way that
+                dieting leads nowhere good, and that a clean lifestyle is the ticket to feeling and being healthy.
+            </p>
+            <img src="roots.jpg" width="200px" height="300px">
+            <hr class="hr-dotted">
+        </div>
+
+        <div class="content2">
+            <h3 class="tit">Selling Boldly: Applying the New Science of Positive
+                Psychology to Dramatically Increase Your Confidence, Happiness, and Sales
+            </h3>
+            <p>Fear is the reason most salespeople don't like to pick up the phone. Fear is the
+                reason we don't ask for the business more, even though our customers want to buy
+                from us.
+            </p>
+            <img src="selling.jpg" width="200px" height="300px">
+            <hr class="hr-dotted">
+        </div>
+
+        <div class="content2">
+            <h3 class="tit">I've Got My Eyes on You (B&N Exclusive Edition)
+            </h3>
+            <p>A new thriller from #1 New York Times bestselling author and "Queen of Suspense"
+                Mary Higgins Clark. After a party when her parents are away, eighteen-year-old Kerry
+                Dowling is found fully dressed at the bottom of the family pool. The immediate
+                suspect is her boyfriend who had a bitter argument with her at the party. Then there
+                is a twenty-year-old neighbor who was angry because she didn't invite him to the 
+                party.
+            </p>
+            <img src="mary.jpg" width="200px" height="300px">
+            <hr class="hr-dotted">
+        </div>
+
+        <div class="content2">
+            <p>Our prices</p>
+            <table>
+                <tr class="zebra_d">
+                    <td class="h">Books</td>
+                    <td class="h">Year</td>
+                    <td class="h">Price</td>
+                </tr>
+                <tr class="zebra_l">
+                    <td>True Roots</td>
+                    <td>2012</td>
+                    <td>20$</td>
+                </tr>
+                <tr class="zebra_d">
+                    <td>Harry Potter</td>
+                    <td>2006</td>
+                    <td>38$</td>
+                </tr>
+                <tr class="zebra_l">
+                    <td>The Outllers</td>
+                    <td>2015</td>
+                    <td>12$</td>
+                </tr>
+                <tr class="zebra_d">
+                    <td>The Big Data</td>
+                    <td>2022</td>
+                    <td>26$</td>
+                </tr>
+            </table>
+            <hr class="hr-dotted">
+        </div>
+
+        <div class="content2">
+            <form>
+                <p>Send your feedback to us</p>
+                <textarea cols="60" rows="20"></textarea><br>
+                <input type="submit" value="Submit" id="submit_bt">
+            </form>
+            <hr class="hr-dotted">
+        </div>
+
+        <div id="box_down">
+            <p id="fin">Barnes & Noble Booksellers. Inc. Legal Department<br>
+            122Fifth Avenue<br>
+            New Your. NY 10011<br>
+            Fax: (212) 463-5683<br><br><br>
+            Location:<a href="#">Click MaQ</a></p>  
+        </div>
+    </body>
+</html>
